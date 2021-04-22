@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(fonfo.jpg) repeat center top;
+}
+
+.frm{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #061e26;
+    text-align: center;
+}
+
+.frm h1{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.frm input[type="text"],
+.frm input[type="text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #6cf7af;
+    padding: 30px, 25px;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.frm input[type="text"]:focus,
+.frm input[type="text"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+
+.frm input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.frm input[type="submit"]:hover{
+    background: #2ecc71;
+    color: black;
+}
+.frm output[type="number"]{
+    color: #2ecc71;
+    font-size: 40px;
+
+}
