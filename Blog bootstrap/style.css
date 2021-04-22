@@ -1,0 +1,30 @@
+.lead{
+    padding-left: 20px;
+}
+
+.sobre-mi{
+    width: 1200px;
+    margin: 45px auto;
+    padding-top: 30px;
+    background-color: #E6E5D6;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(imagenes/programing.png) repeat center top;
+    background-size: cover;
+    height: 100vh;
+}
+.barra-navegacion{
+    background-color: #E6E5D6;
+}
+.texto-sitios{
+    background-color: #E6E5D6;
+    border-radius: 10px;
+}
+footer{
+    background-color: #E6E5D6;
+    padding: 10px 10px;
+    margin: 0;
+}

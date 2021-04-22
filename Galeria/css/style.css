@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+.theme{
+    background-color: #DF826D;
+    border-radius: 20px;
+}
+.contenedor-galeria{
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #66EAB8;
+    color: white;
+    border-radius: 10px;
+
+}
+.contenedor-galeria img{
+    width: 100%;
+}
+.contenedorM img{ 
+    width: 16.6%;
+    transition: .3s;
+}
+.contenedorM img:hover{ 
+   transform: scale(1.1);
+   transition: .3s;
+}
